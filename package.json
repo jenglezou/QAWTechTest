@@ -1,0 +1,17 @@
+{
+  "name": "qawtechtest",
+  "version": "1.0.0",
+  "description": "qawtechtest",
+  "main": "index.js",
+  "dependencies": {
+    "wdio-jasmine-framework": "^0.3.2",
+    "wdio-selenium-standalone-service": "^0.0.9",
+    "webdriverio": "^4.10.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
