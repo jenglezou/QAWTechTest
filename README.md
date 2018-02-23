@@ -8,13 +8,12 @@ https://nodejs.org/en/
 
 ## selenium-standalone
 npm install selenium-standalone@latest -g
-
-then:
 selenium-standalone install
-selenium-standalone start
+
 
 ## webdriverio
 see package.json for packages
 
 # Run
+selenium-standalone start
 .\node_modules\.bin\wdio
