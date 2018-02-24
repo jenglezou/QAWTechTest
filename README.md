@@ -5,11 +5,11 @@ Developed as a webdriverio jasmine test running on chrome using selenium_standal
 # General Comments 
 The test was described as a BDD feature using a Gherkin-style syntax and implemented as a Jasmine test specification.
 
-Many issues were encountered during the development of even such a simple example:
-- Installation of Java version required by the Selenium driver
-- Installation of .NET SDK required by WebdriverIO
-- Confusing or unclear documentation
-- Behaviour of Selenium/webdriverio APIs for performing seemingly simple actions
+Some issues were encountered during the development of even such a simple example:
+- Installation of Java was required by the Selenium driver
+- Installation of .NET SDK was required
+- Some confusing or unclear documentation.  Although the WebdriverIO user and API documentation is refreshingly friendly.
+- Unusual behaviour of Selenium/webdriverio APIs when performing seemingly simple actions
 
 # Improvements
 Consider using the Page Object Pattern approach to separate the UI handling from the tests.
@@ -25,7 +25,8 @@ selenium-standalone install
 see package.json for required packages
 
 # Run
+Install the items listed above in the dependencies.
+
 selenium-standalone start
 
 .\node_modules\.bin\wdio
-
