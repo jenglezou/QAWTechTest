@@ -12,6 +12,10 @@ Some issues were encountered during the development of even such a simple exampl
 - Unusual behaviour of Selenium/webdriverio APIs when performing seemingly simple actions
 
 # Improvements
+Should really ensure that the CONTACT US form is ready to receive data otherwise could misplace text.  
+
+Should really clear the fields first before entering the required text.
+
 Consider using the Page Object Pattern approach to separate the UI handling from the tests.
 
 # Dependencies
