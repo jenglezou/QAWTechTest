@@ -3,7 +3,7 @@ An academic exercise demonstrating the use of open-source tooling to perform a r
 Developed as a webdriverio jasmine test running on chrome using selenium_standalone.
 
 # General Comments 
-The test was described as a BDD feature using a Gherkin-style syntax and implemented as a Jasmine test specification.
+The test was described as a BDD feature using a Gherkin-style syntax and has been implemented here as a Jasmine test specification.
 
 Some issues were encountered during the development of even such a simple example:
 - Installation of Java was required by the Selenium driver
